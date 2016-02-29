@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 // UUID of all spothill beacons
-extern NSString * const kBeaconUUID;
+extern NSString * const kBeaconUUID; //  @"a1b2c3d4-aaaa-48d2-b060-d0c0d0c0d0c0"
 
 
 @class SpothillSDKSpot;

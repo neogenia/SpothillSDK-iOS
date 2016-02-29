@@ -8,6 +8,8 @@
 
 #import <MagicalRecord/MagicalRecord+Options.h>
 
+#define MR_LOGGING_DISABLED 1
+
 #if MR_LOGGING_DISABLED
 
 #define MRLogError(frmt, ...) ((void)0)
