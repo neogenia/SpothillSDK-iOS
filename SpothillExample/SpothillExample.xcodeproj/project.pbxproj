@@ -15,10 +15,10 @@
 		A278E5631C69F92B00429205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A278E5611C69F92B00429205 /* LaunchScreen.storyboard */; };
 		A278E5AF1C69F9DA00429205 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A278E5AE1C69F9DA00429205 /* CoreLocation.framework */; };
 		A278E5B11C69FAC500429205 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A278E5B01C69FAC500429205 /* CoreBluetooth.framework */; };
-		A278E6391C69FED200429205 /* libSpothillSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A278E6361C69FED200429205 /* libSpothillSDK.a */; };
-		A2CEC42D1C6A031300E825D4 /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CEC42C1C6A031300E825D4 /* libMagicalRecord.a */; };
-		A2CEC4361C6A095A00E825D4 /* SpothillSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2CEC4351C6A095A00E825D4 /* SpothillSDKBundle.bundle */; };
 		A2D70F7D1C6A16EC0018BFF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D70F7C1C6A16EC0018BFF6 /* InfoPlist.strings */; };
+		A2FD3F061C85A2FC00B9ACB0 /* libSpothillSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD3F021C85A2FC00B9ACB0 /* libSpothillSDK.a */; };
+		A2FD3F071C85A2FC00B9ACB0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2FD3F031C85A2FC00B9ACB0 /* README.txt */; };
+		A2FD3F081C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2FD3F041C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,68 +34,68 @@
 		A278E5641C69F92B00429205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A278E5AE1C69F9DA00429205 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A278E5B01C69FAC500429205 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		A278E5F91C69FED100429205 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
-		A278E5FA1C69FED100429205 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Actions.h"; sourceTree = "<group>"; };
-		A278E5FB1C69FED100429205 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
-		A278E5FC1C69FED100429205 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
-		A278E5FD1C69FED100429205 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Options.h"; sourceTree = "<group>"; };
-		A278E5FE1C69FED100429205 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Setup.h"; sourceTree = "<group>"; };
-		A278E5FF1C69FED100429205 /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
-		A278E6001C69FED100429205 /* MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecord.h; sourceTree = "<group>"; };
-		A278E6011C69FED100429205 /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
-		A278E6021C69FED100429205 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordInternal.h; sourceTree = "<group>"; };
-		A278E6031C69FED100429205 /* MagicalRecordLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordLogging.h; sourceTree = "<group>"; };
-		A278E6041C69FED100429205 /* MagicalRecordShorthandMethodAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthandMethodAliases.h; sourceTree = "<group>"; };
-		A278E6051C69FED100429205 /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
-		A278E6061C69FED100429205 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E6071C69FED100429205 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E6081C69FED100429205 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
-		A278E6091C69FED100429205 /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E60A1C69FED100429205 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
-		A278E60B1C69FED100429205 /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
-		A278E60C1C69FED100429205 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
-		A278E60D1C69FED100429205 /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
-		A278E60E1C69FED100429205 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
-		A278E60F1C69FED100429205 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
-		A278E6101C69FED100429205 /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
-		A278E6111C69FED100429205 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
-		A278E6121C69FED100429205 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
-		A278E6131C69FED100429205 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E6141C69FED100429205 /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E6151C69FED100429205 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
-		A278E6161C69FED100429205 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
-		A278E6171C69FED100429205 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E6181C69FED100429205 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
-		A278E61A1C69FED100429205 /* SpothillSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDK.h; sourceTree = "<group>"; };
-		A278E61B1C69FED100429205 /* SpothillSDKBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKBackend.h; sourceTree = "<group>"; };
-		A278E61C1C69FED100429205 /* SpothillSDKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKBeaconManager.h; sourceTree = "<group>"; };
-		A278E61D1C69FED100429205 /* SpothillSDKCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCache.h; sourceTree = "<group>"; };
-		A278E61E1C69FED100429205 /* SpothillSDKCampaign+ActionItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpothillSDKCampaign+ActionItems.h"; sourceTree = "<group>"; };
-		A278E61F1C69FED100429205 /* SpothillSDKCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCampaign.h; sourceTree = "<group>"; };
-		A278E6201C69FED100429205 /* SpothillSDKCampaignListTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCampaignListTypes.h; sourceTree = "<group>"; };
-		A278E6211C69FED100429205 /* SpothillSDKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCategory.h; sourceTree = "<group>"; };
-		A278E6221C69FED100429205 /* SpothillSDKDBEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBEntities.h; sourceTree = "<group>"; };
-		A278E6231C69FED200429205 /* SpothillSDKDBEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBEntity.h; sourceTree = "<group>"; };
-		A278E6241C69FED200429205 /* SpothillSDKDBNearbyCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBNearbyCampaign.h; sourceTree = "<group>"; };
-		A278E6251C69FED200429205 /* SpothillSDKDBNearbyGroupCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBNearbyGroupCampaign.h; sourceTree = "<group>"; };
-		A278E6271C69FED200429205 /* SpothillSDKDBSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBSpot.h; sourceTree = "<group>"; };
-		A278E6281C69FED200429205 /* SpothillSDKEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKEntities.h; sourceTree = "<group>"; };
-		A278E6291C69FED200429205 /* SpothillSDKEntitySetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKEntitySetters.h; sourceTree = "<group>"; };
-		A278E62A1C69FED200429205 /* SpothillSDKGroupCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKGroupCampaign.h; sourceTree = "<group>"; };
-		A278E62B1C69FED200429205 /* SpothillSDKIgnoreableEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKIgnoreableEntity.h; sourceTree = "<group>"; };
-		A278E62C1C69FED200429205 /* SpothillSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKManager.h; sourceTree = "<group>"; };
-		A278E62D1C69FED200429205 /* SpothillSDKNotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKNotificationService.h; sourceTree = "<group>"; };
-		A278E62E1C69FED200429205 /* SpothillSDKProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKProvider.h; sourceTree = "<group>"; };
-		A278E62F1C69FED200429205 /* SpothillSDKServerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKServerEntity.h; sourceTree = "<group>"; };
-		A278E6301C69FED200429205 /* SpothillSDKSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKSpot.h; sourceTree = "<group>"; };
-		A278E6311C69FED200429205 /* SpothillSDKSpotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKSpotDetailViewController.h; sourceTree = "<group>"; };
-		A278E6321C69FED200429205 /* SpothillSDKSpotNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKSpotNotification.h; sourceTree = "<group>"; };
-		A278E6331C69FED200429205 /* SpothillSDKUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKUserProfile.h; sourceTree = "<group>"; };
-		A278E6341C69FED200429205 /* UIColor+Spothill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Spothill.h"; sourceTree = "<group>"; };
-		A278E6361C69FED200429205 /* libSpothillSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSpothillSDK.a; path = SpothillExample/libSpothillSDK.a; sourceTree = "<group>"; };
-		A2CEC42C1C6A031300E825D4 /* libMagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagicalRecord.a; path = SpothillExample/libMagicalRecord.a; sourceTree = SOURCE_ROOT; };
-		A2CEC4351C6A095A00E825D4 /* SpothillSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SpothillSDKBundle.bundle; path = SpothillExample/SpothillSDKBundle.bundle; sourceTree = "<group>"; };
 		A2D70F7C1C6A16EC0018BFF6 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A2FD3EC61C85A2FC00B9ACB0 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
+		A2FD3EC71C85A2FC00B9ACB0 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		A2FD3EC81C85A2FC00B9ACB0 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
+		A2FD3EC91C85A2FC00B9ACB0 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
+		A2FD3ECA1C85A2FC00B9ACB0 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		A2FD3ECB1C85A2FC00B9ACB0 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Setup.h"; sourceTree = "<group>"; };
+		A2FD3ECC1C85A2FC00B9ACB0 /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
+		A2FD3ECD1C85A2FC00B9ACB0 /* MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecord.h; sourceTree = "<group>"; };
+		A2FD3ECE1C85A2FC00B9ACB0 /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
+		A2FD3ECF1C85A2FC00B9ACB0 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordInternal.h; sourceTree = "<group>"; };
+		A2FD3ED01C85A2FC00B9ACB0 /* MagicalRecordLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordLogging.h; sourceTree = "<group>"; };
+		A2FD3ED11C85A2FC00B9ACB0 /* MagicalRecordShorthandMethodAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthandMethodAliases.h; sourceTree = "<group>"; };
+		A2FD3ED21C85A2FC00B9ACB0 /* MagicalRecordXcode7CompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordXcode7CompatibilityMacros.h; sourceTree = "<group>"; };
+		A2FD3ED31C85A2FC00B9ACB0 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3ED41C85A2FC00B9ACB0 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3ED51C85A2FC00B9ACB0 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		A2FD3ED61C85A2FC00B9ACB0 /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3ED71C85A2FC00B9ACB0 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		A2FD3ED81C85A2FC00B9ACB0 /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		A2FD3ED91C85A2FC00B9ACB0 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		A2FD3EDA1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
+		A2FD3EDB1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
+		A2FD3EDC1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		A2FD3EDD1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		A2FD3EDE1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		A2FD3EDF1C85A2FC00B9ACB0 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		A2FD3EE01C85A2FC00B9ACB0 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3EE11C85A2FC00B9ACB0 /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3EE21C85A2FC00B9ACB0 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		A2FD3EE31C85A2FC00B9ACB0 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		A2FD3EE41C85A2FC00B9ACB0 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3EE51C85A2FC00B9ACB0 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A2FD3EE71C85A2FC00B9ACB0 /* SpothillSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDK.h; sourceTree = "<group>"; };
+		A2FD3EE81C85A2FC00B9ACB0 /* SpothillSDKBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKBackend.h; sourceTree = "<group>"; };
+		A2FD3EE91C85A2FC00B9ACB0 /* SpothillSDKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKBeaconManager.h; sourceTree = "<group>"; };
+		A2FD3EEA1C85A2FC00B9ACB0 /* SpothillSDKCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCache.h; sourceTree = "<group>"; };
+		A2FD3EEB1C85A2FC00B9ACB0 /* SpothillSDKCampaign+ActionItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpothillSDKCampaign+ActionItems.h"; sourceTree = "<group>"; };
+		A2FD3EEC1C85A2FC00B9ACB0 /* SpothillSDKCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCampaign.h; sourceTree = "<group>"; };
+		A2FD3EED1C85A2FC00B9ACB0 /* SpothillSDKCampaignListTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCampaignListTypes.h; sourceTree = "<group>"; };
+		A2FD3EEE1C85A2FC00B9ACB0 /* SpothillSDKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKCategory.h; sourceTree = "<group>"; };
+		A2FD3EEF1C85A2FC00B9ACB0 /* SpothillSDKDBEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBEntities.h; sourceTree = "<group>"; };
+		A2FD3EF01C85A2FC00B9ACB0 /* SpothillSDKDBEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBEntity.h; sourceTree = "<group>"; };
+		A2FD3EF11C85A2FC00B9ACB0 /* SpothillSDKDBNearbyCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBNearbyCampaign.h; sourceTree = "<group>"; };
+		A2FD3EF21C85A2FC00B9ACB0 /* SpothillSDKDBNearbyGroupCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBNearbyGroupCampaign.h; sourceTree = "<group>"; };
+		A2FD3EF31C85A2FC00B9ACB0 /* SpothillSDKDBSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKDBSpot.h; sourceTree = "<group>"; };
+		A2FD3EF41C85A2FC00B9ACB0 /* SpothillSDKEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKEntities.h; sourceTree = "<group>"; };
+		A2FD3EF51C85A2FC00B9ACB0 /* SpothillSDKEntitySetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKEntitySetters.h; sourceTree = "<group>"; };
+		A2FD3EF61C85A2FC00B9ACB0 /* SpothillSDKGroupCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKGroupCampaign.h; sourceTree = "<group>"; };
+		A2FD3EF71C85A2FC00B9ACB0 /* SpothillSDKIgnoreableEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKIgnoreableEntity.h; sourceTree = "<group>"; };
+		A2FD3EF81C85A2FC00B9ACB0 /* SpothillSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKManager.h; sourceTree = "<group>"; };
+		A2FD3EF91C85A2FC00B9ACB0 /* SpothillSDKNotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKNotificationService.h; sourceTree = "<group>"; };
+		A2FD3EFA1C85A2FC00B9ACB0 /* SpothillSDKProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKProvider.h; sourceTree = "<group>"; };
+		A2FD3EFB1C85A2FC00B9ACB0 /* SpothillSDKServerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKServerEntity.h; sourceTree = "<group>"; };
+		A2FD3EFC1C85A2FC00B9ACB0 /* SpothillSDKSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKSpot.h; sourceTree = "<group>"; };
+		A2FD3EFD1C85A2FC00B9ACB0 /* SpothillSDKSpotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKSpotDetailViewController.h; sourceTree = "<group>"; };
+		A2FD3EFE1C85A2FC00B9ACB0 /* SpothillSDKSpotNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKSpotNotification.h; sourceTree = "<group>"; };
+		A2FD3EFF1C85A2FC00B9ACB0 /* SpothillSDKUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKUserProfile.h; sourceTree = "<group>"; };
+		A2FD3F001C85A2FC00B9ACB0 /* UIColor+Spothill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Spothill.h"; sourceTree = "<group>"; };
+		A2FD3F021C85A2FC00B9ACB0 /* libSpothillSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSpothillSDK.a; sourceTree = "<group>"; };
+		A2FD3F031C85A2FC00B9ACB0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A2FD3F041C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SpothillSDKBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +104,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A278E5B11C69FAC500429205 /* CoreBluetooth.framework in Frameworks */,
-				A2CEC42D1C6A031300E825D4 /* libMagicalRecord.a in Frameworks */,
 				A278E5AF1C69F9DA00429205 /* CoreLocation.framework in Frameworks */,
-				A278E6391C69FED200429205 /* libSpothillSDK.a in Frameworks */,
+				A2FD3F061C85A2FC00B9ACB0 /* libSpothillSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,94 +157,102 @@
 		A278E56A1C69F93100429205 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A2CEC4351C6A095A00E825D4 /* SpothillSDKBundle.bundle */,
-				A278E5F71C69FED100429205 /* include */,
-				A278E6361C69FED200429205 /* libSpothillSDK.a */,
+				A2FD3EC31C85A2FC00B9ACB0 /* SpothillSDK */,
 				A278E5B01C69FAC500429205 /* CoreBluetooth.framework */,
 				A278E5AE1C69F9DA00429205 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A278E5F71C69FED100429205 /* include */ = {
+		A2FD3EC31C85A2FC00B9ACB0 /* SpothillSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A2CEC42C1C6A031300E825D4 /* libMagicalRecord.a */,
-				A278E5F81C69FED100429205 /* MagicalRecord */,
-				A278E6191C69FED100429205 /* SpothillSDK */,
+				A2FD3EC41C85A2FC00B9ACB0 /* include */,
+				A2FD3F021C85A2FC00B9ACB0 /* libSpothillSDK.a */,
+				A2FD3F031C85A2FC00B9ACB0 /* README.txt */,
+				A2FD3F041C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle */,
 			);
-			name = include;
-			path = SpothillExample/include;
+			name = SpothillSDK;
+			path = ../SpothillSDK;
 			sourceTree = "<group>";
 		};
-		A278E5F81C69FED100429205 /* MagicalRecord */ = {
+		A2FD3EC41C85A2FC00B9ACB0 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				A278E5F91C69FED100429205 /* MagicalImportFunctions.h */,
-				A278E5FA1C69FED100429205 /* MagicalRecord+Actions.h */,
-				A278E5FB1C69FED100429205 /* MagicalRecord+ErrorHandling.h */,
-				A278E5FC1C69FED100429205 /* MagicalRecord+iCloud.h */,
-				A278E5FD1C69FED100429205 /* MagicalRecord+Options.h */,
-				A278E5FE1C69FED100429205 /* MagicalRecord+Setup.h */,
-				A278E5FF1C69FED100429205 /* MagicalRecord+ShorthandMethods.h */,
-				A278E6001C69FED100429205 /* MagicalRecord.h */,
-				A278E6011C69FED100429205 /* MagicalRecordDeprecationMacros.h */,
-				A278E6021C69FED100429205 /* MagicalRecordInternal.h */,
-				A278E6031C69FED100429205 /* MagicalRecordLogging.h */,
-				A278E6041C69FED100429205 /* MagicalRecordShorthandMethodAliases.h */,
-				A278E6051C69FED100429205 /* MagicalRecordXcode7CompatibilityMacros.h */,
-				A278E6061C69FED100429205 /* NSAttributeDescription+MagicalDataImport.h */,
-				A278E6071C69FED100429205 /* NSEntityDescription+MagicalDataImport.h */,
-				A278E6081C69FED100429205 /* NSManagedObject+MagicalAggregation.h */,
-				A278E6091C69FED100429205 /* NSManagedObject+MagicalDataImport.h */,
-				A278E60A1C69FED100429205 /* NSManagedObject+MagicalFinders.h */,
-				A278E60B1C69FED100429205 /* NSManagedObject+MagicalRecord.h */,
-				A278E60C1C69FED100429205 /* NSManagedObject+MagicalRequests.h */,
-				A278E60D1C69FED100429205 /* NSManagedObjectContext+MagicalChainSave.h */,
-				A278E60E1C69FED100429205 /* NSManagedObjectContext+MagicalObserving.h */,
-				A278E60F1C69FED100429205 /* NSManagedObjectContext+MagicalRecord.h */,
-				A278E6101C69FED100429205 /* NSManagedObjectContext+MagicalSaves.h */,
-				A278E6111C69FED100429205 /* NSManagedObjectContext+MagicalThreading.h */,
-				A278E6121C69FED100429205 /* NSManagedObjectModel+MagicalRecord.h */,
-				A278E6131C69FED100429205 /* NSNumber+MagicalDataImport.h */,
-				A278E6141C69FED100429205 /* NSObject+MagicalDataImport.h */,
-				A278E6151C69FED100429205 /* NSPersistentStore+MagicalRecord.h */,
-				A278E6161C69FED100429205 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
-				A278E6171C69FED100429205 /* NSRelationshipDescription+MagicalDataImport.h */,
-				A278E6181C69FED100429205 /* NSString+MagicalDataImport.h */,
+				A2FD3EC51C85A2FC00B9ACB0 /* MagicalRecord */,
+				A2FD3EE61C85A2FC00B9ACB0 /* SpothillSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A2FD3EC51C85A2FC00B9ACB0 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD3EC61C85A2FC00B9ACB0 /* MagicalImportFunctions.h */,
+				A2FD3EC71C85A2FC00B9ACB0 /* MagicalRecord+Actions.h */,
+				A2FD3EC81C85A2FC00B9ACB0 /* MagicalRecord+ErrorHandling.h */,
+				A2FD3EC91C85A2FC00B9ACB0 /* MagicalRecord+iCloud.h */,
+				A2FD3ECA1C85A2FC00B9ACB0 /* MagicalRecord+Options.h */,
+				A2FD3ECB1C85A2FC00B9ACB0 /* MagicalRecord+Setup.h */,
+				A2FD3ECC1C85A2FC00B9ACB0 /* MagicalRecord+ShorthandMethods.h */,
+				A2FD3ECD1C85A2FC00B9ACB0 /* MagicalRecord.h */,
+				A2FD3ECE1C85A2FC00B9ACB0 /* MagicalRecordDeprecationMacros.h */,
+				A2FD3ECF1C85A2FC00B9ACB0 /* MagicalRecordInternal.h */,
+				A2FD3ED01C85A2FC00B9ACB0 /* MagicalRecordLogging.h */,
+				A2FD3ED11C85A2FC00B9ACB0 /* MagicalRecordShorthandMethodAliases.h */,
+				A2FD3ED21C85A2FC00B9ACB0 /* MagicalRecordXcode7CompatibilityMacros.h */,
+				A2FD3ED31C85A2FC00B9ACB0 /* NSAttributeDescription+MagicalDataImport.h */,
+				A2FD3ED41C85A2FC00B9ACB0 /* NSEntityDescription+MagicalDataImport.h */,
+				A2FD3ED51C85A2FC00B9ACB0 /* NSManagedObject+MagicalAggregation.h */,
+				A2FD3ED61C85A2FC00B9ACB0 /* NSManagedObject+MagicalDataImport.h */,
+				A2FD3ED71C85A2FC00B9ACB0 /* NSManagedObject+MagicalFinders.h */,
+				A2FD3ED81C85A2FC00B9ACB0 /* NSManagedObject+MagicalRecord.h */,
+				A2FD3ED91C85A2FC00B9ACB0 /* NSManagedObject+MagicalRequests.h */,
+				A2FD3EDA1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalChainSave.h */,
+				A2FD3EDB1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalObserving.h */,
+				A2FD3EDC1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalRecord.h */,
+				A2FD3EDD1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalSaves.h */,
+				A2FD3EDE1C85A2FC00B9ACB0 /* NSManagedObjectContext+MagicalThreading.h */,
+				A2FD3EDF1C85A2FC00B9ACB0 /* NSManagedObjectModel+MagicalRecord.h */,
+				A2FD3EE01C85A2FC00B9ACB0 /* NSNumber+MagicalDataImport.h */,
+				A2FD3EE11C85A2FC00B9ACB0 /* NSObject+MagicalDataImport.h */,
+				A2FD3EE21C85A2FC00B9ACB0 /* NSPersistentStore+MagicalRecord.h */,
+				A2FD3EE31C85A2FC00B9ACB0 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				A2FD3EE41C85A2FC00B9ACB0 /* NSRelationshipDescription+MagicalDataImport.h */,
+				A2FD3EE51C85A2FC00B9ACB0 /* NSString+MagicalDataImport.h */,
 			);
 			path = MagicalRecord;
 			sourceTree = "<group>";
 		};
-		A278E6191C69FED100429205 /* SpothillSDK */ = {
+		A2FD3EE61C85A2FC00B9ACB0 /* SpothillSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A278E61A1C69FED100429205 /* SpothillSDK.h */,
-				A278E61B1C69FED100429205 /* SpothillSDKBackend.h */,
-				A278E61C1C69FED100429205 /* SpothillSDKBeaconManager.h */,
-				A278E61D1C69FED100429205 /* SpothillSDKCache.h */,
-				A278E61E1C69FED100429205 /* SpothillSDKCampaign+ActionItems.h */,
-				A278E61F1C69FED100429205 /* SpothillSDKCampaign.h */,
-				A278E6201C69FED100429205 /* SpothillSDKCampaignListTypes.h */,
-				A278E6211C69FED100429205 /* SpothillSDKCategory.h */,
-				A278E6221C69FED100429205 /* SpothillSDKDBEntities.h */,
-				A278E6231C69FED200429205 /* SpothillSDKDBEntity.h */,
-				A278E6241C69FED200429205 /* SpothillSDKDBNearbyCampaign.h */,
-				A278E6251C69FED200429205 /* SpothillSDKDBNearbyGroupCampaign.h */,
-				A278E6271C69FED200429205 /* SpothillSDKDBSpot.h */,
-				A278E6281C69FED200429205 /* SpothillSDKEntities.h */,
-				A278E6291C69FED200429205 /* SpothillSDKEntitySetters.h */,
-				A278E62A1C69FED200429205 /* SpothillSDKGroupCampaign.h */,
-				A278E62B1C69FED200429205 /* SpothillSDKIgnoreableEntity.h */,
-				A278E62C1C69FED200429205 /* SpothillSDKManager.h */,
-				A278E62D1C69FED200429205 /* SpothillSDKNotificationService.h */,
-				A278E62E1C69FED200429205 /* SpothillSDKProvider.h */,
-				A278E62F1C69FED200429205 /* SpothillSDKServerEntity.h */,
-				A278E6301C69FED200429205 /* SpothillSDKSpot.h */,
-				A278E6311C69FED200429205 /* SpothillSDKSpotDetailViewController.h */,
-				A278E6321C69FED200429205 /* SpothillSDKSpotNotification.h */,
-				A278E6331C69FED200429205 /* SpothillSDKUserProfile.h */,
-				A278E6341C69FED200429205 /* UIColor+Spothill.h */,
+				A2FD3EE71C85A2FC00B9ACB0 /* SpothillSDK.h */,
+				A2FD3EE81C85A2FC00B9ACB0 /* SpothillSDKBackend.h */,
+				A2FD3EE91C85A2FC00B9ACB0 /* SpothillSDKBeaconManager.h */,
+				A2FD3EEA1C85A2FC00B9ACB0 /* SpothillSDKCache.h */,
+				A2FD3EEB1C85A2FC00B9ACB0 /* SpothillSDKCampaign+ActionItems.h */,
+				A2FD3EEC1C85A2FC00B9ACB0 /* SpothillSDKCampaign.h */,
+				A2FD3EED1C85A2FC00B9ACB0 /* SpothillSDKCampaignListTypes.h */,
+				A2FD3EEE1C85A2FC00B9ACB0 /* SpothillSDKCategory.h */,
+				A2FD3EEF1C85A2FC00B9ACB0 /* SpothillSDKDBEntities.h */,
+				A2FD3EF01C85A2FC00B9ACB0 /* SpothillSDKDBEntity.h */,
+				A2FD3EF11C85A2FC00B9ACB0 /* SpothillSDKDBNearbyCampaign.h */,
+				A2FD3EF21C85A2FC00B9ACB0 /* SpothillSDKDBNearbyGroupCampaign.h */,
+				A2FD3EF31C85A2FC00B9ACB0 /* SpothillSDKDBSpot.h */,
+				A2FD3EF41C85A2FC00B9ACB0 /* SpothillSDKEntities.h */,
+				A2FD3EF51C85A2FC00B9ACB0 /* SpothillSDKEntitySetters.h */,
+				A2FD3EF61C85A2FC00B9ACB0 /* SpothillSDKGroupCampaign.h */,
+				A2FD3EF71C85A2FC00B9ACB0 /* SpothillSDKIgnoreableEntity.h */,
+				A2FD3EF81C85A2FC00B9ACB0 /* SpothillSDKManager.h */,
+				A2FD3EF91C85A2FC00B9ACB0 /* SpothillSDKNotificationService.h */,
+				A2FD3EFA1C85A2FC00B9ACB0 /* SpothillSDKProvider.h */,
+				A2FD3EFB1C85A2FC00B9ACB0 /* SpothillSDKServerEntity.h */,
+				A2FD3EFC1C85A2FC00B9ACB0 /* SpothillSDKSpot.h */,
+				A2FD3EFD1C85A2FC00B9ACB0 /* SpothillSDKSpotDetailViewController.h */,
+				A2FD3EFE1C85A2FC00B9ACB0 /* SpothillSDKSpotNotification.h */,
+				A2FD3EFF1C85A2FC00B9ACB0 /* SpothillSDKUserProfile.h */,
+				A2FD3F001C85A2FC00B9ACB0 /* UIColor+Spothill.h */,
 			);
 			path = SpothillSDK;
 			sourceTree = "<group>";
@@ -310,8 +317,9 @@
 				A278E5631C69F92B00429205 /* LaunchScreen.storyboard in Resources */,
 				A278E5601C69F92B00429205 /* Assets.xcassets in Resources */,
 				A278E55E1C69F92B00429205 /* Main.storyboard in Resources */,
-				A2CEC4361C6A095A00E825D4 /* SpothillSDKBundle.bundle in Resources */,
+				A2FD3F081C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle in Resources */,
 				A2D70F7D1C6A16EC0018BFF6 /* InfoPlist.strings in Resources */,
+				A2FD3F071C85A2FC00B9ACB0 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

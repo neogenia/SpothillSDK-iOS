@@ -24,15 +24,8 @@
     [super viewDidLoad];
     
     self.title = NSLocalizedString(@"Nearby Campaigns", nil);
-    
-    // simlate that some beacons have been found
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [SpothillSDKManager.sharedInstance.beaconManager testRangingOfBeaconWithMinor:100 mayor:1 accuracy:20];
-        for (int i=1; i < 6; i++) {
-            [SpothillSDKManager.sharedInstance.beaconManager testRangingOfBeaconWithMinor:i mayor:1 accuracy:20];
-        }
-        
-    });
+
+    [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(simulateBeaconsRanging) userInfo:nil repeats:YES];
     
     [self loadCampaigns];
 }
@@ -50,6 +43,15 @@
     [super viewWillDisappear:animated];
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)simulateBeaconsRanging {
+    
+    // simlate that some beacons have been found
+    [SpothillSDKManager.sharedInstance.beaconManager testRangingOfBeaconWithMinor:100 mayor:1 accuracy:20];
+    for (int i=1; i < 6; i++) {
+        [SpothillSDKManager.sharedInstance.beaconManager testRangingOfBeaconWithMinor:i mayor:1 accuracy:20];
+    }
 }
 
 - (void)loadCampaigns {
