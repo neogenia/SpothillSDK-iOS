@@ -39,6 +39,12 @@ typedef void (^providersListCompletionBlock)(NSMutableArray *providers);
 
 @end
 
+typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
+    SpothillSDKBackendEnvironmentProduction,
+    SpothillSDKBackendEnvironmentBeta
+};
+
+
 @interface SpothillSDKBackend : NSObject
 
 // stored after successful login or registration
@@ -46,6 +52,17 @@ typedef void (^providersListCompletionBlock)(NSMutableArray *providers);
 
 // this is value identifing app that uses this SDK, should be provided by Neogenia s.r.o.
 @property (strong, nonatomic) NSString * providerHash;
+
+/*
+    You can choose between https://beta.spothill.com and https://spothill.com servers.
+    Set this value to SpothillSDKBackendEnvironmentBeta during development.
+    User is signed off and cSpothillSDKBackendUserDidLogout notification is sent when
+    you set environment property to a value that differs from the previous one.
+ 
+    Defaults to SpothillSDKBackendEnvironmentProduction
+ */
+@property (assign, nonatomic) SpothillSDKBackendEnvironment environment;
+
 
 + (instancetype)sharedInstance;
 

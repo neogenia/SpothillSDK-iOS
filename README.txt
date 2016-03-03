@@ -38,6 +38,10 @@ NSLocationAlwaysUsageDescription = "Vaše polohové služby potřebujeme kvůli 
 {
     SpothillSDKManager.sharedInstance.backend.providerHash = @"your provider hash";
 
+   // change this value to production for release applications
+    SpothillSDKManager.sharedInstance.backend.environment = SpothillSDKBackendEnvironmentBeta;
+
+
     if (!SpothillSDKManager.sharedInstance.backend.isLoggedIn) {
         [SpothillSDKManager.sharedInstance.backend registerAnonymousUserWithCompletion:^(BOOL success, NSInteger statusCode) {
             if (success) {
