@@ -15,9 +15,9 @@
 		A278E5631C69F92B00429205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A278E5611C69F92B00429205 /* LaunchScreen.storyboard */; };
 		A278E5AF1C69F9DA00429205 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A278E5AE1C69F9DA00429205 /* CoreLocation.framework */; };
 		A278E5B11C69FAC500429205 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A278E5B01C69FAC500429205 /* CoreBluetooth.framework */; };
+		A27E58631C9B414B007753ED /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A27E58621C9B414B007753ED /* README.txt */; };
 		A2D70F7D1C6A16EC0018BFF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D70F7C1C6A16EC0018BFF6 /* InfoPlist.strings */; };
 		A2FD3F061C85A2FC00B9ACB0 /* libSpothillSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD3F021C85A2FC00B9ACB0 /* libSpothillSDK.a */; };
-		A2FD3F071C85A2FC00B9ACB0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2FD3F031C85A2FC00B9ACB0 /* README.txt */; };
 		A2FD3F081C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2FD3F041C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +34,7 @@
 		A278E5641C69F92B00429205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A278E5AE1C69F9DA00429205 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A278E5B01C69FAC500429205 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A27E58621C9B414B007753ED /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		A2D70F7C1C6A16EC0018BFF6 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		A2FD3EC61C85A2FC00B9ACB0 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
 		A2FD3EC71C85A2FC00B9ACB0 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Actions.h"; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		A2FD3EFF1C85A2FC00B9ACB0 /* SpothillSDKUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpothillSDKUserProfile.h; sourceTree = "<group>"; };
 		A2FD3F001C85A2FC00B9ACB0 /* UIColor+Spothill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Spothill.h"; sourceTree = "<group>"; };
 		A2FD3F021C85A2FC00B9ACB0 /* libSpothillSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSpothillSDK.a; sourceTree = "<group>"; };
-		A2FD3F031C85A2FC00B9ACB0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		A2FD3F041C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SpothillSDKBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +132,7 @@
 		A278E5521C69F92B00429205 /* SpothillExample */ = {
 			isa = PBXGroup;
 			children = (
+				A27E58621C9B414B007753ED /* README.txt */,
 				A278E5561C69F92B00429205 /* AppDelegate.h */,
 				A278E5571C69F92B00429205 /* AppDelegate.m */,
 				A278E5591C69F92B00429205 /* ViewController.h */,
@@ -169,7 +170,6 @@
 			children = (
 				A2FD3EC41C85A2FC00B9ACB0 /* include */,
 				A2FD3F021C85A2FC00B9ACB0 /* libSpothillSDK.a */,
-				A2FD3F031C85A2FC00B9ACB0 /* README.txt */,
 				A2FD3F041C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle */,
 			);
 			name = SpothillSDK;
@@ -318,8 +318,8 @@
 				A278E5601C69F92B00429205 /* Assets.xcassets in Resources */,
 				A278E55E1C69F92B00429205 /* Main.storyboard in Resources */,
 				A2FD3F081C85A2FC00B9ACB0 /* SpothillSDKBundle.bundle in Resources */,
+				A27E58631C9B414B007753ED /* README.txt in Resources */,
 				A2D70F7D1C6A16EC0018BFF6 /* InfoPlist.strings in Resources */,
-				A2FD3F071C85A2FC00B9ACB0 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

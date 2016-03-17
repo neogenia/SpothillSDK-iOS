@@ -1,7 +1,2 @@
-/* 
-  InfoPlist.strings
-  SpothillExample
 
-  Created by Martin Krivus on 09/02/16.
-  Copyright © 2016 Martin Krivus. All rights reserved.
-*/
+NSLocationAlwaysUsageDescription = "Vaše polohové služby potřebujeme kvůli zobrazování kampaní pro Vás na základě výskytu při našem spotu.";
