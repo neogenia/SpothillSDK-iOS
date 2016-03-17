@@ -93,9 +93,9 @@ typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
                  loginMethod:(LoginMethod)loginMethod
                   completion:(void (^)(BOOL success, NSInteger statusCode))completion;
 
-// this is for virtual registration of user, so it can be paired with server actions
-// and his data - successful completion of this is mandatory before any other backend calls
-// this uses LoginMethodSkipLogin register method
+// This is for virtual registration of user, so it can be paired with server actions
+// and his data. Successful completion of this is mandatory before any other backend calls
+// It uses LoginMethodSkipLogin register method.
 - (void)registerAnonymousUserWithCompletion:(void (^)(BOOL success, NSInteger statusCode))completion;
 
 // update profile data for user
