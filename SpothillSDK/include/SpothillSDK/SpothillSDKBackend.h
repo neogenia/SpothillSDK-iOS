@@ -12,6 +12,7 @@
 
 #import "SpothillSDKCampaignListTypes.h"
 #import "SpothillSDKEntitySetters.h"
+#import "SpothillSDKBeacon.h"
 #import "SpothillSDKManager.h"
 
 @import CoreLocation;
@@ -29,15 +30,6 @@ typedef void (^listCompletionBlock)(NSMutableArray *campaigns, NSMutableArray *p
 typedef void (^campaignListCompletionBlock)(NSMutableArray *campaigns);
 typedef void (^categoriesListCompletionBlock)(NSMutableArray *categories);
 typedef void (^providersListCompletionBlock)(NSMutableArray *providers);
-
-@interface UpdatedSpot : NSObject
-
-@property (strong, nonatomic) NSNumber *minor;
-@property (strong, nonatomic) NSNumber *major;
-@property (nonatomic, strong) NSUUID * proximityUUID;
-@property (nonatomic, assign) CLLocationAccuracy accuracy;
-
-@end
 
 typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
     SpothillSDKBackendEnvironmentProduction,
@@ -71,7 +63,7 @@ typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
 - (void)logout;
 
 // get spot representation for beacon, spot contains campaigns and groupCampaigns
-- (void)getSpotForBeacon:(CLBeacon *)beacon completion:(void (^)(SpothillSDKSpot *spot))completion;
+- (void)getSpotForBeacon:(SpothillSDKBeacon *)beacon completion:(void (^)(SpothillSDKSpot *spot))completion;
 // this is request used in webview that allows to open webpage representing the campaign detail
 - (NSMutableURLRequest *)requestCampaignDetailForCampaignId:(NSNumber *)campaignId;
 
@@ -103,7 +95,7 @@ typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
                       completion:(void (^)(BOOL success, NSInteger statusCode))completion;
 
 // checks for updates on server of SpothillSDKSpot instances, campaigns or group campaigns can be changed on server side
-- (void)checkForUpdatedSpotsWithCompletion:(void (^)(NSArray *spots))completion;
+- (void)checkForUpdatedSpotsWithCompletion:(void (^)(NSArray<SpothillSDKBeacon *> *spots))completion;
 
 
 @end

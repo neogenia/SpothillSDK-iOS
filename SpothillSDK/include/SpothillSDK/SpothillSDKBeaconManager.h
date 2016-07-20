@@ -13,6 +13,7 @@ extern NSString * const kBeaconUUID; //  @"a1b2c3d4-aaaa-48d2-b060-d0c0d0c0d0c0"
 
 
 @class SpothillSDKSpot;
+@class SpothillSDKBeacon;
 
 @interface SpothillSDKBeaconManager : NSObject<CLLocationManagerDelegate>
 
@@ -20,9 +21,15 @@ extern NSString * const kBeaconUUID; //  @"a1b2c3d4-aaaa-48d2-b060-d0c0d0c0d0c0"
 @property (nonatomic, strong, readonly) CLLocationManager *locationManager;
 
 // nearby beacons that are currently ranged
-@property (nonatomic, strong, readonly) NSArray *nearbyBeacons;
+@property (nonatomic, strong, readonly) NSArray <SpothillSDKBeacon *> *nearbyBeacons;
 // state of beacon region e.g. inside/outside/unknown
 @property (nonatomic, assign, readonly) CLRegionState regionState;
+
+// disable monitoring of CLRegion with kBeaconUUID
+@property (nonatomic, assign) BOOL disableBeaconMonitoring;
+
+
+#pragma mark - Testing
 
 // used for testing purposes, in simulator it can be used to initiate ranging of a beacon with desired parameters
 - (void)testRangingOfBeaconWithMinor:(NSInteger)minor mayor:(NSInteger)mayor accuracy:(double)accuracy;

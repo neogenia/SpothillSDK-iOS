@@ -12,6 +12,7 @@
 #import "SpothillSDKDBEntity.h"
 
 @class CLBeacon;
+@class SpothillSDKBeacon;
 
 @interface SpothillSDKDBSpot : SpothillSDKDBEntity
 
@@ -25,7 +26,7 @@
 @property (nonatomic, retain) NSDate * lastVisitTime;
 @property (nonatomic, retain) NSDate * nextDownloadTime;
 
-- (BOOL)isEqualToBeacon:(CLBeacon*)beacon;
+- (BOOL)isEqualToBeacon:(SpothillSDKBeacon *)beacon;
 
 @end
 

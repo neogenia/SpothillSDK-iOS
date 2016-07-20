@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *cUserProfileDidChange;
+extern NSString *const cUserProfileDidChange;
 
 @interface SpothillSDKUserProfile : NSObject
 
