@@ -55,6 +55,9 @@ typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
  */
 @property (assign, nonatomic) SpothillSDKBackendEnvironment environment;
 
+// There you can specifi dubhomain of the https://spothill you must add the .com or other at the and of the subdomain
+@property (nonatomic, strong) NSString *subdomain;
+
 
 + (instancetype)sharedInstance;
 
