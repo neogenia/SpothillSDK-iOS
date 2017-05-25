@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SpothillSDKCampaignListTypes.h"
 
+@class SpothillSDKServerEntity;
 
 @interface SpothillSDKCache : NSObject
 
@@ -31,6 +32,11 @@
  CampaignListTypeFavouriteProviders = 9,
 */
 - (NSArray *)dataForListType:(SpothillSDKCampaignListType)listType;
+
+/**
+ *  Clear cached history entities
+ */
+- (void)campaignBlockedChanged;
 
 // returns data in completion for list type, if force is NO the cache is used, otherwise
 // it loads list from server
