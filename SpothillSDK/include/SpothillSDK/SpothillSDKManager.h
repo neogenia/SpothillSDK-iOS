@@ -54,6 +54,7 @@ extern NSString * const cSpothillSDKNotificationCampaignIdKeyName;
 @class SpothillSDKCache;
 @class SpothillSDKBeaconManager;
 @class SpothillSDKBackend;
+@class MRMapView, MRMapViewController;
 
 @interface SpothillSDKManager : NSObject
 
@@ -69,5 +70,28 @@ extern NSString * const cSpothillSDKNotificationCampaignIdKeyName;
 // app should resend any local notification that is received, so SDK can decide if it should open detail of campaign
 - (void)didReceiveLocalNotification:(UILocalNotification *)notification;
 
+
+#pragma mark - Push notification
+
+/**
+ * Application did register for remote notification with device token
+ *
+ *  @param  token   NSData
+ */
+- (void)didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)token;
+
+/**
+ * Application did finish launch with options
+ *
+ *  @param  launchOptions   NSDictionary
+ */
+-(void)didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+
+/**
+ *  Handle reveived push notification
+ *
+ *  @param  userInfo    NSDictionary
+ */
+-(void)didReceiveRemoteNotification:(NSDictionary *)userInfo;
 
 @end

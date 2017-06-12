@@ -86,7 +86,25 @@ if (!SpothillSDKManager.sharedInstance.backend.isLoggedIn) {
     }];
 }
 
-2.3. See ViewController.m in SpothillExample app for example of loading campaigns asociated with nearby beacons
+2.3. Register user with params
+
+	Data for the registration
+	NSDictionary * data = @{
+		@"sex": sex,
+		@"name": name,	
+		@"surname": surname,
+		@"email": email,
+		@"password": password,
+		@"oldPassword": oldPass   // Only when you want to change the password
+         };
+
+Registration where is required to activate the account by the link from the email send to registration email
+[SpothillSDKManager.sharedInstance.backend registerUserWithData:data loginMethod:loginMethod completion:^(BOOL success, NSInteger statusCode) {
+
+Registration where you can skip the account activation 
+[SpothillSDKManager.sharedInstance.backend registerUserWithData:data loginMethod:loginMethod skipActivation:<#(BOOL)#> completion:^(BOOL success, NSInteger statusCode) {
+
+2.4. See ViewController.m in SpothillExample app for example of loading campaigns asociated with nearby beacons
 
 
 

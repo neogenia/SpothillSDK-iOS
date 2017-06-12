@@ -88,6 +88,12 @@ typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
                  loginMethod:(LoginMethod)loginMethod
                   completion:(void (^)(BOOL success, NSInteger statusCode))completion;
 
+// registration of user, this method can skip the activation process
+- (void)registerUserWithData:(NSDictionary *)data
+                 loginMethod:(LoginMethod)loginMethod
+              skipActivation:(BOOL)skip
+                  completion:(void (^)(BOOL success, NSInteger statusCode))completion;
+
 // This is for virtual registration of user, so it can be paired with server actions
 // and his data. Successful completion of this is mandatory before any other backend calls
 // It uses LoginMethodSkipLogin register method.
@@ -100,5 +106,12 @@ typedef NS_ENUM(NSUInteger, SpothillSDKBackendEnvironment) {
 // checks for updates on server of SpothillSDKSpot instances, campaigns or group campaigns can be changed on server side
 - (void)checkForUpdatedSpotsWithCompletion:(void (^)(NSArray<SpothillSDKBeacon *> *spots))completion;
 
-
+/**
+ *  Send spot log file from path
+ *
+ *  @param  completion
+ *  @param  filename        NSString
+ *  @param  path            NSString
+ */
+- (void) sendSpotLogFile:(NSString *)path filename:(NSString *)filename withCompletion:(void (^)(BOOL success))completion;
 @end

@@ -29,6 +29,17 @@ extern NSString * const kBeaconUUID; //  @"a1b2c3d4-aaaa-48d2-b060-d0c0d0c0d0c0"
 @property (nonatomic, assign) BOOL disableBeaconMonitoring;
 
 
+#pragma mark - Region states
+
+/**
+ *  State for the region in param
+ *
+ *  @param  regionID  NSString
+ *
+ *  @return CLRegionState
+ */
+- (CLRegionState) stateForRegionUUID:(NSString *)regionID;
+
 #pragma mark - Testing
 
 // used for testing purposes, in simulator it can be used to initiate ranging of a beacon with desired parameters
